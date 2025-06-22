@@ -7,6 +7,7 @@
   <title>Don Salvio | IT Support Resume</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 
 <body class="bg-gray-100 text-gray-900 font-sans">
@@ -25,7 +26,79 @@
   </header>
 
   <main class="max-w-4xl mx-auto px-6 py-10">
-    <!-- Other sections omitted for brevity -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">About Me</h2>
+      <p class="text-gray-700">
+        Certified IT Support Specialist with hands-on experience in building practical tools like helpdesk systems, dashboards, and system monitoring solutions. Passionate about problem-solving, Linux systems, and continuous learning.
+      </p>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Certifications & Skills</h2>
+      <ul class="list-disc list-inside text-gray-700">
+        <li><i class="fas fa-certificate text-blue-600 mr-2"></i>Google IT Support Certification</li>
+        <li><i class="fas fa-hard-hat text-yellow-500 mr-2"></i>OSHA Certified</li>
+        <li><i class="fab fa-python text-green-600 mr-2"></i>Python</li>
+        <li><i class="fab fa-linux text-gray-700 mr-2"></i>Linux (Currently Learning)</li>
+        <li><i class="fab fa-github text-black mr-2"></i>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Technical Proficiency</h2>
+      <div class="space-y-4 max-w-md">
+        <div>
+          <p class="font-semibold text-gray-800 mb-1">Python</p>
+          <div class="w-full bg-gray-300 rounded-full h-5">
+            <div class="bg-green-600 h-5 rounded-full" style="width: 85%;"></div>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-gray-800 mb-1">Linux</p>
+          <div class="w-full bg-gray-300 rounded-full h-5">
+            <div class="bg-gray-700 h-5 rounded-full" style="width: 60%;"></div>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-gray-800 mb-1">Troubleshooting</p>
+          <div class="w-full bg-gray-300 rounded-full h-5">
+            <div class="bg-blue-600 h-5 rounded-full" style="width: 80%;"></div>
+          </div>
+        </div>
+        <div>
+          <p class="font-semibold text-gray-800 mb-1">Git & GitHub</p>
+          <div class="w-full bg-gray-300 rounded-full h-5">
+            <div class="bg-black h-5 rounded-full" style="width: 75%;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-2xl font-semibold mb-4">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white p-4 rounded-lg shadow hover:shadow-md">
+          <h3 class="text-xl font-semibold">System Health Dashboard</h3>
+          <p class="text-gray-600">A dashboard for monitoring system performance and health using Python and web technologies.</p>
+          <a href="https://github.com/R2D2Cousin/System-health-dashboard" target="_blank" class="inline-block mt-2 text-blue-600 hover:underline">🔗 GitHub Repo</a>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow hover:shadow-md">
+          <h3 class="text-xl font-semibold">Helpdesk Ticketing System</h3>
+          <p class="text-gray-600">A web-based helpdesk system built to track and manage IT support tickets.</p>
+          <a href="https://github.com/R2D2Cousin/Helpdesk-Ticketing-System" target="_blank" class="inline-block mt-2 text-blue-600 hover:underline">🔗 GitHub Repo</a>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow hover:shadow-md">
+          <h3 class="text-xl font-semibold">Helpdesk CLI Tool</h3>
+          <p class="text-gray-600">A command-line helpdesk management tool for logging and tracking user-reported issues.</p>
+          <a href="https://github.com/R2D2Cousin/helpdesk" target="_blank" class="inline-block mt-2 text-blue-600 hover:underline">🔗 GitHub Repo</a>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow hover:shadow-md">
+          <h3 class="text-xl font-semibold">System Diagnostic Tool</h3>
+          <p class="text-gray-600">A tool to collect and analyze system diagnostics for troubleshooting and maintenance.</p>
+          <a href="https://github.com/R2D2Cousin/system-diagnostic-tool" target="_blank" class="inline-block mt-2 text-blue-600 hover:underline">🔗 GitHub Repo</a>
+        </div>
+      </div>
+    </section>
 
     <section class="mb-10">
       <h2 class="text-2xl font-semibold mb-4">Contact Me</h2>
@@ -43,9 +116,6 @@
         <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Send Message</button>
       </form>
     </section>
-
-    <!-- Remaining content omitted for brevity -->
-
   </main>
 
   <footer class="bg-white shadow-inner text-center text-sm p-6">
